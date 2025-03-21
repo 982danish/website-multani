@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fresh Microgreens & Multani Mitti</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f8f8f8;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+        }
+        .products-container {
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .product {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            flex: 1;
+            min-width: 300px;
+        }
+        img {
+            width: 100%;
+            max-width: 400px;
+            border-radius: 10px;
+        }
+        .whatsapp-button {
+            display: inline-block;
+            background-color: #25D366;
+            color: white;
+            padding: 10px 20px;
+            font-size: 18px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+        @media (max-width: 600px) {
+            .container {
+                width: 90%;
+                padding: 10px;
+            }
+            .whatsapp-button {
+                width: 100%;
+                padding: 15px;
+                font-size: 16px;
+            }
+            img {
+                max-width: 100%;
+                height: auto;
+            }
+            .products-container {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Buy Fresh Microgreens & Pure Multani Mitti</h1>
+        
+        <a class="whatsapp-button" href="https://wa.me/918777836645" target="_blank">Order on WhatsApp</a>
+        
+        <div class="products-container">
+            <div class="product">
+                <h2>Fresh Microgreens</h2>
+                <img src="https://empressofdirt.net/wp-content/uploads/f12-grow-microgreens-indoors-v1.jpg" alt="Fresh Microgreens">
+                <p>Boost your health with nutrient-packed microgreens grown organically.</p>
+            </div>
+            
+            <div class="product">
+                <h2>Pure Multani Mitti</h2>
+                <img src="https://images.herzindagi.info/image/2022/Aug/Multani-Mitti-face-pack-for-oily-skin.jpg" alt="Multani Mitti">
+                <p>Get glowing skin with 100% pure Multani Mitti for face and hair care.</p>
+            </div>
+        </div>
+        
+        <a class="whatsapp-button" href="https://wa.me/918777836645" target="_blank">Order on WhatsApp</a>
+    </div>
+</body>
+</html>
